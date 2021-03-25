@@ -9,7 +9,7 @@ import TodosComponent from "components/TodosComponent";
 const Main = ({ children }) => {
   const { theme } = useContext(Theme)
   const { page } = useContext(Page)
-  return <div className={theme}>
+  return <div className={theme} style={{ padding: "1em" }}>
     {children}
     {page === "posts" && <PostsComponent />}
     {page === "users" && <UsersComponent />}
