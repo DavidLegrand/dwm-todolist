@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import TestComponent from "./TestComponent";
+import TestComponent from "./PostsComponent";
 
 describe("TestComponent", () => {
   test("matches snapshot", () => {

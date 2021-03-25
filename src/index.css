@@ -12,23 +12,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 button {
   padding: 0.5em;
   border-radius: 0.2em;
+  cursor: pointer;
+}
+button.active {
+  font-weight: bold;
 }
 .light {
   color: #222;
   background-color: #eee;
 }
 .light button {
-  color: #000;
+  color: #333;
   background-color: #fff;
+}
+.light button.active{
+  color: #000;
 }
 .dark {
   color: #eee;
   background-color: #222;
 }
 .dark button {
-  color: #fff;
+  color: #ddd;
   background-color: #000;
+}
+.dark button.active{
+  color: #fff;
 }
